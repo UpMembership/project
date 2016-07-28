@@ -1,7 +1,7 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
-    "type": "project",
+    "name": "crowdcg/upmembership",
+    "description": "Up Membership install profile",
+    "type": "drupal-profile",
     "license": "GPL-2.0+",
     "authors": [
         {
