@@ -47,11 +47,6 @@
     },
     "minimum-stability": "alpha",
     "prefer-stable": true,
-    "autoload": {
-        "classmap": [
-            "scripts/ScriptHandler.php"
-        ]
-    },
     "scripts": {
         "post-install-cmd": [
             "PhantomInstaller\\Installer::installPhantomJS",
