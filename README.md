@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# UpMembership Project
+A Drupal 8 distribution for membership organizations.
+
 # Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
@@ -106,7 +108,3 @@ section of composer.json:
     }
 }
 ```
-=======
-# project
-A Drupal 8 distribution for membership organizations.
->>>>>>> 71914a9597f73d90f23e812b69d94151f6668f48
