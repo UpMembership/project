@@ -26,7 +26,11 @@
         "drupal/metatag": "8.*",
         "drupal/paragraphs": "8.*",
         "drupal/workbench": "8.*",
-        "drupal/views_send": "8.*"
+        "drupal/views_send": "8.*",
+        "drupal/media_entity": "8.*",
+        "drupal/media_entity_image": "8.*",
+        "drupal/video_embed_field": "8.*",
+        "drupal/media_entity_document": "8.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
