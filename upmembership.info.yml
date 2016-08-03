@@ -39,5 +39,6 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
+  - menu_ui
   - views_send
   - workbench
