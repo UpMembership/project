@@ -1,0 +1,68 @@
+name: Up Membership
+type: profile
+description: 'The basic install profile for Up Membership'
+core: 8.x
+
+distibution:
+	name: Up Membership
+
+dependincies:
+#core
+    - node
+    - dynamic_page_cache
+    - page_cache
+    - automated_cron
+    - history
+    - block
+    - block_content
+    - breakpoint
+    - color
+    - config
+    - comment
+    - contextual
+    - contact
+    - quickedit
+    - help
+    - image
+    - options
+    - path
+    - taxonomy
+    - dblog
+    - search
+    - shortcut
+    - toolbar
+    - tour
+    - field
+    - field_ui
+    - file
+    - filter
+    - rdf
+    - views
+    - system
+    - views_ui
+    - editor
+    - menu_link_content
+    - menu_ui
+    - ckeditor
+    - update
+    - user
+    - entity
+    - token
+    - big_pipe
+#contrip
+	- views_send
+	- paragraphs
+	- paragraphs_type_permissions
+	- media_entity
+	- media_entity_image
+	- video_embed_field
+	- media_entity_document
+	- video_embed_media
+	- metatag
+	- group
+	- gnode
+	- grolesync
+
+themes:
+    - bartick
+    - seven
