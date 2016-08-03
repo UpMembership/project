@@ -15,7 +15,6 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "^8.1.0",
         "drupal/console": "~1.0",
-        "drupal/group": "8.*",
         "drupal/metatag": "8.*",
         "drupal/paragraphs": "8.*",
         "drupal/workbench": "8.*",
@@ -23,7 +22,9 @@
         "drupal/media_entity": "8.*",
         "drupal/media_entity_image": "8.*",
         "drupal/video_embed_field": "8.*",
-        "drupal/media_entity_document": "8.*"
+        "drupal/media_entity_document": "8.*",
+        "drupal/group": "^1.0@beta",
+        "drupal/devel": "^1.0@alpha"
     },
     "require-dev": {
 	"behat/behat": "^3.0",
@@ -34,7 +35,6 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
-	    "drupal/devel": "^8.0.0",
 	    "drupal/coder": "8.*",
 	    "drupal/drupal-extension": "^3.2",
         "jakoch/phantomjs-installer": "1.9.8",
