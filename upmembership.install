@@ -4,13 +4,6 @@
  * Install, update and uninstall functions for the spark install profile.
  */
 
-use Drupal\Core\Entity\Entity\EntityViewDisplay;
-use Drupal\field\Entity\FieldConfig;
-use Drupal\node\Entity\NodeType;
-use Drupal\user\Entity\User;
-use Drupal\user\RoleInterface;
-use Drupal\shortcut\Entity\Shortcut;
-
 /**
  * Implements hook_install().
  *
@@ -23,25 +16,5 @@ function upmembership_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  // Set the default and admin theme
-  \Drupal::configFactory()
-      ->getEditable('system.theme')
-      ->set('default', 'bartik')
-      ->set('admin', 'seven')
-      ->save(TRUE);
-
-  // Enable the admin theme.
-  \Drupal::configFactory()
-      ->getEditable('node.settings')
-      ->set('use_admin_theme', TRUE)
-      ->save(TRUE);
-
-  /**
-   * Enables the modules module.
-   */
-  function upmembership_update_8001() {
-    \Drupal::service('module_installer')->install(['views']);
-  }
-  
   // Can add code in here to make nodes, terms, etc.
 }
