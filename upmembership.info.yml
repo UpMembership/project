@@ -1,6 +1,6 @@
-name: Up Mebership
+name: Up Membership
 type: profile
-description: 'Test Profile'
+description: 'The install prfile for Crowdcgs Up Membership'
 core: 8.x
 
 # Optional: Declare your installation profile as a distribution
@@ -8,7 +8,7 @@ core: 8.x
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 distribution:
-  name: Distribution Name
+  name: Up Membership
 
 # Required modules
 dependencies:
