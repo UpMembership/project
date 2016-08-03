@@ -42,3 +42,19 @@ dependencies:
   - menu_ui
   - views_send
   - workbench
+  - big_pipe
+  - group
+  - gnode
+  - grolesync
+  - media_entity
+  - media_entity_document
+  - media_entity_image
+  - entity
+  - token
+  - paragraphs
+  - metatag
+  - video_embed_media
+
+themes:
+  - bartik
+  - seven
