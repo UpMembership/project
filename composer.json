@@ -11,7 +11,6 @@
     ],
     "require": {
         "composer/installers": "^1.0.20",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "^8.1.0",
@@ -37,7 +36,6 @@
         "symfony/css-selector": "~2.8",
 	"drupal/devel": "^8.0.0",
 	"drupal/coder": "8.*",
-    "drupal/drupal-extension": "^3.1",
 	"drupal/drupal-extension": "^3.2",
         "jakoch/phantomjs-installer": "1.9.8",
         "phing/phing": "^2.14",
