@@ -41,7 +41,7 @@ dependencies:
   - ckeditor
   - menu_ui
   - views_send
-  - workbench
+  - workbench_moderation
   - big_pipe
   - group
   - gnode
