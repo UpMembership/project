@@ -2,17 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
-    - comment
+    - metatag
     - node
-_core:
-  default_config_hash: ktCna9xmWvYZIUfOCUyDQvedn5RtnS4CRmEIwNmvYjc
-id: node.comment
-field_name: comment
+id: node.field_meta_tags
+field_name: field_meta_tags
 entity_type: node
-type: comment
-settings:
-  comment_type: comment
-module: comment
+type: metatag
+settings: {  }
+module: metatag
 locked: false
 cardinality: 1
 translatable: true
