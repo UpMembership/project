@@ -13,6 +13,7 @@ distribution:
 # Required modules
 dependencies:
   - node
+  - datetime
   - history
   - block
   - block_content

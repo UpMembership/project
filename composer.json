@@ -23,7 +23,8 @@
         "drupal/views_send": "^1.0@beta",
         "drupal/workbench_moderation": "^1.1",
         "drupal/paragraphs": "^1.0",
-        "drupal/console": "^0.11.3"
+        "drupal/console": "^0.11.3",
+        "drupal/contact_storage": "^1.0@beta"
     },
     "require-dev": {
 	"behat/behat": "^3.0",
