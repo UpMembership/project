@@ -6,6 +6,8 @@ dependencies:
     - node.type.news
   module:
     - text
+_core:
+  default_config_hash: yMyCx4vLGtZTaY3F18T5tUYIxnKmXadSpGJaOmyBSIc
 id: node.news.field_source
 field_name: field_source
 entity_type: node

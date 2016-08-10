@@ -16,6 +16,8 @@ dependencies:
     - path
     - text
     - workbench_moderation
+_core:
+  default_config_hash: fVu43HpAjPtnoQI6Q6J_qpCqRtiKhIRth5c55OJ4hdY
 id: node.event.default
 targetEntityType: node
 bundle: event

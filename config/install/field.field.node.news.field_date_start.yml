@@ -6,6 +6,8 @@ dependencies:
     - node.type.news
   module:
     - datetime
+_core:
+  default_config_hash: LBNqFj3-IePIYRy_cc-gj39Xsbz3WvJ1B8NQmX9nR5c
 id: node.news.field_date_start
 field_name: field_date_start
 entity_type: node

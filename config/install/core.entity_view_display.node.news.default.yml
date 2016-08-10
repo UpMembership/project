@@ -16,6 +16,8 @@ dependencies:
     - metatag
     - text
     - user
+_core:
+  default_config_hash: 9aQHiValNCpSSYUW-MOXcNHt7-NppLnGcTM3nSspOWs
 id: node.news.default
 targetEntityType: node
 bundle: news

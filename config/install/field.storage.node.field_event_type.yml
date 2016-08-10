@@ -4,6 +4,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: KANDDKWzFZnprul5Tgj40k_wYb6QdIi9lQqOPHwEcfk
 id: node.field_event_type
 field_name: field_event_type
 entity_type: node

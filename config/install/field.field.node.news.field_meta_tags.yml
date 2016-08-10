@@ -6,6 +6,8 @@ dependencies:
     - node.type.news
   module:
     - metatag
+_core:
+  default_config_hash: K8R__JlG6B7y-CI-tz7wDjoxDhb8XhbG0M28UZyZLk0
 id: node.news.field_meta_tags
 field_name: field_meta_tags
 entity_type: node

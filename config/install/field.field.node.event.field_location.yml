@@ -6,6 +6,8 @@ dependencies:
     - node.type.event
   module:
     - text
+_core:
+  default_config_hash: VKoYHJa4ka-Ymkcgn1wjgGv5Woowb6JbBQrzZl_fdRc
 id: node.event.field_location
 field_name: field_location
 entity_type: node

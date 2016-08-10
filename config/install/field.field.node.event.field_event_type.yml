@@ -6,6 +6,8 @@ dependencies:
     - node.type.event
   module:
     - options
+_core:
+  default_config_hash: hC0HHiC4GJ75xlO4fxaOmc70XkIuz7UVonLobErPSMs
 id: node.event.field_event_type
 field_name: field_event_type
 entity_type: node

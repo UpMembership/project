@@ -18,6 +18,8 @@ dependencies:
     - path
     - text
     - workbench_moderation
+_core:
+  default_config_hash: lu4fopXFjPFfudp1ORqHO_IesgPccOXOsiM4ICLdaHk
 id: node.news.default
 targetEntityType: node
 bundle: news
