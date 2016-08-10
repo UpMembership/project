@@ -55,6 +55,9 @@ dependencies:
   - paragraphs
   - metatag
   - video_embed_media
+  - calendar
+  - calendar_datetime
+  - views_templates
 
 themes:
   - bartik

@@ -24,7 +24,9 @@
         "drupal/workbench_moderation": "^1.1",
         "drupal/paragraphs": "^1.0",
         "drupal/console": "^0.11.3",
-        "drupal/contact_storage": "^1.0@beta"
+        "drupal/contact_storage": "^1.0@beta",
+        "drupal/calendar": "1.x-dev",
+        "drupal/views_templates": "^1.0@alpha"
     },
     "require-dev": {
 	"behat/behat": "^3.0",
