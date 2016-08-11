@@ -6,8 +6,6 @@ dependencies:
     - node.type.event
   module:
     - image
-_core:
-  default_config_hash: w0DdjRLuR4ATfOKHccPcugoAXhJyktaHo0Nt0Pju-fo
 id: node.event.field_image
 field_name: field_image
 entity_type: node

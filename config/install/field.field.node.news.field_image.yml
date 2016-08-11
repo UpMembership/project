@@ -6,8 +6,6 @@ dependencies:
     - node.type.news
   module:
     - image
-_core:
-  default_config_hash: t5nSNVI9KhMP2KakMw3lQVFai8ndIgIl4R7sNQ3rCUY
 id: node.news.field_image
 field_name: field_image
 entity_type: node

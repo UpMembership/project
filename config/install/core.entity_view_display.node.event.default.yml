@@ -15,8 +15,6 @@ dependencies:
     - options
     - text
     - user
-_core:
-  default_config_hash: _XIxrYpnPmT7aq2LmfpPCqMJb8LqGWVS-eVedRj8ZVA
 id: node.event.default
 targetEntityType: node
 bundle: event

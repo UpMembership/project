@@ -4,20 +4,17 @@ dependencies:
   config:
     - field.field.node.news.body
     - field.field.node.news.field_additional_info
-    - field.field.node.news.field_date_start
     - field.field.node.news.field_image
     - field.field.node.news.field_meta_tags
+    - field.field.node.news.field_news_type
     - field.field.node.news.field_source
     - node.type.news
   module:
-    - datetime
     - image
     - link
     - metatag
     - text
     - user
-_core:
-  default_config_hash: 9aQHiValNCpSSYUW-MOXcNHt7-NppLnGcTM3nSspOWs
 id: node.news.default
 targetEntityType: node
 bundle: news
@@ -26,11 +23,11 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
   field_additional_info:
-    weight: 4
+    weight: 3
     label: above
     settings:
       trim_length: 80
@@ -40,24 +37,16 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
-  field_date_start:
-    weight: 1
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
   field_image:
     type: image
-    weight: 3
+    weight: 2
     label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
   field_meta_tags:
-    weight: 5
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -69,4 +58,5 @@ content:
     third_party_settings: {  }
     type: text_default
 hidden:
+  field_news_type: true
   links: true

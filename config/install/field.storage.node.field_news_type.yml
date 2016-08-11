@@ -4,8 +4,8 @@ dependencies:
   module:
     - node
     - options
-id: node.field_event_type
-field_name: field_event_type
+id: node.field_news_type
+field_name: field_news_type
 entity_type: node
 type: list_string
 settings:
