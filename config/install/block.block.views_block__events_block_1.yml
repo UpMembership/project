@@ -1,11 +1,8 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.events
   module:
     - system
-    - views
   theme:
     - bartik
 id: views_block__events_block_1

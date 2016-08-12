@@ -58,6 +58,13 @@ dependencies:
   - calendar
   - calendar_datetime
   - views_templates
+  - features
+  - features_ui
+  - config_update
+  - up_membership_event
+  - up_membership_article
+  - up_membership_news
+  - up_membership_landing_page
 
 themes:
   - bartik

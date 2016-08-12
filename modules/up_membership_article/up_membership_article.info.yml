@@ -1,0 +1,16 @@
+name: 'Up Membership Article'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - image
+  - menu_ui
+  - metatag
+  - node
+  - path
+  - text
+  - user
+  - views
+  - workbench_moderation
+version: 8.x-1.0
+package: 'Up Membership'

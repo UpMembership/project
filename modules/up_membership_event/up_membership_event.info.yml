@@ -1,0 +1,21 @@
+name: 'Up Membership Event'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - datetime
+  - field
+  - image
+  - link
+  - menu_ui
+  - metatag
+  - node
+  - options
+  - path
+  - system
+  - text
+  - user
+  - views
+  - workbench_moderation
+version: 8.x-1.0
+package: 'Up Membership'

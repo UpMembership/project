@@ -1,10 +1,10 @@
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.full
     - field.field.node.news.body
     - field.field.node.news.field_additional_info
+    - field.field.node.news.field_date_start
     - field.field.node.news.field_image
     - field.field.node.news.field_meta_tags
     - field.field.node.news.field_news_type
@@ -12,13 +12,14 @@ dependencies:
     - node.type.news
   module:
     - image
+    - link
     - metatag
     - text
     - user
-id: node.news.full
+id: node.news.default
 targetEntityType: node
 bundle: news
-mode: full
+mode: default
 content:
   body:
     label: hidden
@@ -26,22 +27,38 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+  field_additional_info:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
   field_image:
-    weight: 0
+    type: image
+    weight: 2
     label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-    type: image
   field_meta_tags:
-    weight: 3
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
+  field_source:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
 hidden:
-  field_additional_info: true
+  field_date_start: true
   field_news_type: true
-  field_source: true
   links: true
