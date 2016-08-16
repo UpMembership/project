@@ -5,3 +5,10 @@ id: member
 label: Member
 weight: -6
 is_admin: null
+permissions:
+  - 'edit own comments'
+  - 'post comments'
+  - 'access comments'
+  - 'view media'
+  - 'access content'
+  - 'access user profiles'
