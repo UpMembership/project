@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wage
+    - node.type.job_posting
+id: node.job_posting.field_wage
+field_name: field_wage
+entity_type: node
+bundle: job_posting
+label: Wage
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: /hour
+field_type: decimal

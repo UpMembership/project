@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_next_renewal
+  module:
+    - datetime
+    - user
+id: user.user.field_next_renewal
+field_name: field_next_renewal
+entity_type: user
+bundle: user
+label: 'Next Renewal'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+90 days'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,8 +1,10 @@
-name: 'Up Membership R&P'
+name: 'Up Membership Roles and Permissions'
 type: module
 core: 8.x
 dependencies:
   - block
+  - datetime
+  - field
   - system
   - user
 version: 8.x-1.0

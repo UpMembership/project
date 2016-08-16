@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about
+    - node.type.job_posting
+  module:
+    - text
+id: node.job_posting.field_about
+field_name: field_about
+entity_type: node
+bundle: job_posting
+label: About
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
