@@ -58,6 +58,7 @@ dependencies:
   - calendar
   - calendar_datetime
   - views_templates
+  - entity_browser
   - up_membership_event
   - up_membership_article
   - up_membership_news
