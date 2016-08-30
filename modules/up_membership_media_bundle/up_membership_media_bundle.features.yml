@@ -1,0 +1,4 @@
+bundle: up_membership
+excluded:
+  - block.block.views_block__events_block_1
+required: true

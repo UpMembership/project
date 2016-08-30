@@ -64,6 +64,7 @@ dependencies:
   - up_membership_landing_page
   - up_membership_roles_and_permissions
   - up_membership_job_postings
+  - up_membership_media_bundle
 
 themes:
   - bartik

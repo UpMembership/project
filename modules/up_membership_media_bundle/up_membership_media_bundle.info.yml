@@ -1,0 +1,18 @@
+name: 'Up Membership Media Bundle'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - file
+  - image
+  - media_entity
+  - media_entity_document
+  - media_entity_image
+  - system
+  - user
+  - video_embed_field
+  - video_embed_media
+  - workbench_moderation
+version: 8.x-1.0
+package: 'Up Membership'
