@@ -10,12 +10,8 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.0.20",
-        "drupal-composer/drupal-scaffold": "^2.0.1",
-        "cweagans/composer-patches": "~1.0",
         "drupal/group": "^1.0@beta",
         "drupal/metatag": "^1.0@beta",
-        "drupal/core": "^8.1",
         "drupal/media_entity_document": "^1.1",
         "drupal/video_embed_field": "^1.2",
         "drupal/media_entity_image": "^1.2",
@@ -30,25 +26,13 @@
         "drupal/entity_browser": "^1.0@alpha"
     },
     "require-dev": {
-	"behat/behat": "^3.0",
-        "behat/mink": "~1.7",
-        "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8",
-        "drupal/devel": "^1.0@alpha",
-        "drupal/coder": "^8.2",
-        "drupal/drupal-extension": "^3.2",
-        "jakoch/phantomjs-installer": "1.9.8",
-        "phing/phing": "^2.14",
-        "squizlabs/php_codesniffer": "2.*"
+	"drupal/devel": "^1.0@alpha",
+        "drupal/coder": "^8.2"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
@@ -63,8 +47,7 @@
     },
     "extra": {
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"]
+            "modules/contrib/{$name}": ["type:drupal-module"]
        }
     }
 }
